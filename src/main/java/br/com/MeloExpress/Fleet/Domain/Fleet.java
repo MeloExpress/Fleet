@@ -15,6 +15,8 @@ import java.util.UUID;
 @Table(name = "fleet")
 public class Fleet {
 
+
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long fleetNumber;
